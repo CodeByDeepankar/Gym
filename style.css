@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* Header */
+.header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header .logo {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .nav ul {
+  float: right;
+}
+
+.header .nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDrz8JgMjxi4TxIkqB6PnOgYNWN6_Q7sAA5ww1qvIcJk36UL1h18yZJ0&s=10') no-repeat center center/cover;
+  color: #fff;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero .btn {
+  background: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* About Section */
+.about {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+/* Services Section */
+.services {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.services ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services ul li {
+  margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
